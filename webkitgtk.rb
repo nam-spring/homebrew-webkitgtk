@@ -19,7 +19,7 @@ class Webkitgtk < Formula
   # end
 
   head do
-    url "https://github.com/WebKit/webkit.git"
+    url "https://github.com/WebKit/webkit/tree/main"
     depends_on "cmake" => :build
     depends_on "gtk+3"
     depends_on "libsoup"
